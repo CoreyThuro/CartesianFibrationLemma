@@ -19,18 +19,12 @@ Thumbs.db
 *.tmp
 *.bak
 
-# ============================================
-# Claude/Serena Development Files
-# (Hidden from mathematicians viewing the formalization)
-# ============================================
-
 # Claude documentation and working files
 /claudedocs/
 
 # Serena MCP server data
 /.serena/
 
-# Project planning documents (keep only the formalization)
 /prospectus.md
 /chosen_lemma.md
 
