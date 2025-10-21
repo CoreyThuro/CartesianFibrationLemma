@@ -25,6 +25,7 @@ Thumbs.db
 # Serena MCP server data
 /.serena/
 
+# Original notes
 /prospectus.md
 /chosen_lemma.md
 
