@@ -1,0 +1,15 @@
+name = "CartesianFibrations"
+version = "0.1.0"
+keywords = ["math", "category theory", "infinity categories"]
+defaultTargets = ["CartesianFibrations"]
+
+[[lean_lib]]
+name = "CartesianFibrations"
+
+# We'll import directly from mathlib for now
+# The infinity-cosmos dependency has some compilation errors
+# We'll add it back once those are resolved
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.24.0"
